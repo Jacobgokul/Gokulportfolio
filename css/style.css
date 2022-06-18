@@ -9986,3 +9986,7 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+.contactlink{
+  font-size: 30px!important;
+  margin-right: 16px!important;
+}

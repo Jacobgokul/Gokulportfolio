@@ -112,6 +112,13 @@
         loop: true,
         items: 1
     });
+
+    //experience calculate
+    let months = diff
+    var year = Math.floor(months/12);
+    var month = months - (year*12);
+    $(".experience").html(year+'.'+month) ;
+
     
 })(jQuery);
 

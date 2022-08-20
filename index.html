@@ -84,6 +84,16 @@
                     <img class="img-fluidprofile rounded w-100" src="img/about.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
+                    <script>
+                        function getMonthDifference(startDate, endDate) {
+                            return (
+                            endDate.getMonth() -
+                            startDate.getMonth() +
+                            12 * (endDate.getFullYear() - startDate.getFullYear())
+                            );
+                        }
+                        diff = getMonthDifference(new Date('2021-02'), new Date())
+                    </script>
                     <h3 class="mb-4">Python Odoo Developer</h3>
                     <p>A creative / Energetic / Innovative<br>
                         Coding is part in my life, I <b>create, desgin and develop</b> websites. I developed many sites with coding as well as with the use of drag & drop wordpress.
@@ -92,7 +102,7 @@
                         <div class="col-sm-5 py-2"><h6>Name: <span class="text-secondary">Gokulnath</span></h6></div>
                         <div class="col-sm-7 py-2"><h6>Birthday: <span class="text-secondary">10 May 1999</span></h6></div>
                         <div class="col-sm-5 py-2"><h6>Degree: <span class="text-secondary">Bachelor</span></h6></div>
-                        <div class="col-sm-7 py-2"><h6>Experience: <span class="text-secondary">1.7 Years</span></h6></div>
+                        <div class="col-sm-7 py-2"><h6>Experience: <span class="text-secondary"><span class="experience"></span> Years</span></h6></div>
                         <div class="col-sm-5 py-2"><h6>Phone: <span class="text-secondary">+91 87789 24490</span></h6></div>
                         <div class="col-sm-7 py-2"><h6>Email: <span class="text-secondary">gokulnathraguraman@gmail.com</span></h6></div>
                         <div class="col-sm-5 py-2"><h6>Address: <span class="text-secondary">Comibatore, Tamilnadu, India</span></h6></div>
@@ -327,7 +337,7 @@
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/Hidden Secret.png" alt="">
                         <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a href="http://webcito.herokuapp.com/" target="_blank" style="opacity: 1.5;">
+                            <a href="https://hiddensecret.herokuapp.com/" target="_blank" style="opacity: 1.5;">
                                 <i class="fa fa-eye text-white" style="font-size: 60px;"></i>
                             </a>
                         </div>

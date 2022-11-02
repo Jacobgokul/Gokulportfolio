@@ -6446,6 +6446,30 @@ button.bg-dark:focus {
   background-color: transparent !important;
 }
 
+.bg-fastapi {
+  background-color: #00b3b3 !important;
+}
+
+.bg-pandas {
+  background-color:#bb9090 !important;
+}
+
+.bg-cyan {
+  background-color:#0dcaf0 !important;
+}
+
+.bg-pink {
+  background-color:#d63384 !important;
+}
+
+.bg-django {
+  background-color:#666633 !important;
+}
+
+.bg-odoo {
+  background-color:#FF2400 !important;
+}
+
 .border {
   border: 1px solid #dee2e6 !important;
 }

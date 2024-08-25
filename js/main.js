@@ -303,4 +303,26 @@
 	// 	backDelay: 2000
 	//   });
 	// }
+
+	$(document).ready(function() {
+		function updateExperience() {
+			var startDate = new Date('2021-02-05');
+			var currentDate = new Date();
+	
+			var years = currentDate.getFullYear() - startDate.getFullYear();
+			var months = currentDate.getMonth() - startDate.getMonth();
+	
+			if (months < 0) {
+				years--;
+				months += 12;
+			}
+	
+			var experienceText = years + " Year" + (years !== 1 ? 's ' : ' ') + months + " Month" + (months !== 1 ? 's' : '');
+			$('#experience').text(experienceText);
+		}
+	
+		updateExperience();
+		setInterval(updateExperience, 1000 * 60 * 60 * 24 * 30); // Update every month
+	});
+	
 })(jQuery);
